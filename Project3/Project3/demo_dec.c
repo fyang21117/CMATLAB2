@@ -47,7 +47,7 @@ int hexstr2dec(char s[])
 		else
 			n = s[i] - '0';
 		temp = temp * 16 + n;
-		printf("%d\n", temp);
+		printf("decdata[%d]=%d\n",j, temp);
 		decdata[j++] = temp;
 	}
 	return temp;
